@@ -19,4 +19,12 @@ img {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
 }
