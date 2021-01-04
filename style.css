@@ -1,6 +1,16 @@
-body{
+body {
     font-family: 'Assistant', sans-serif;
     color: brown;
-    font-size: 18px; 
+    font-size: 18px;
     background-color: beige
+}
+
+.container {
+    max-widows: 400px;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
