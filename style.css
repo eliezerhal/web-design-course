@@ -1,8 +1,12 @@
 body {
     font-family: 'Assistant', sans-serif;
-    color: brown;
+    color: #2a2626;
     font-size: 18px;
     background-color: beige
+}
+
+h1 {
+    color: brown;
 }
 
 .container {
