@@ -3,15 +3,41 @@ body {
     color: #2a2626;
     font-size: 18px;
     background-color: beige;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1,
+h2 {
+    color: brown;
 }
 
 h1 {
-    color: brown;
+    text-align: center;
+}
+
+.logo {
+    display: table;
 }
 
 .container {
     max-width: 800px;
     margin: auto;
+}
+
+.contxt {
+    font-size: 12px;
+}
+
+.con {
+    text-align: center;
+    background: url(img/charisse-kenion-XvZutU3LohE-unsplash%20(1).jpg) center, no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.bullet {
+    font-weight: 700;
 }
 
 img {
