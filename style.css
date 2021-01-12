@@ -31,7 +31,7 @@ h1 {
 
 .con {
     text-align: center;
-    background: url(img/charisse-kenion-XvZutU3LohE-unsplash%20(1).jpg) center, no-repeat;
+    background: url("img/charisse-kenion-XvZutU3LohE-unsplash%20(1).jpg"), center, no-repeat;
     background-size: cover;
     min-height: 100%;
 }
