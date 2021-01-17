@@ -12,12 +12,19 @@ h2 {
     color: brown;
 }
 
-h1 {
+/*h1 {
+    text-align: center;
+}*/
+
+.logo {
+    display: block;
+    margin: auto;
     text-align: center;
 }
 
-.logo {
-    display: table;
+.logo h2  {
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
 }
 
 .container {
@@ -31,7 +38,7 @@ h1 {
 
 .con {
     text-align: center;
-    background: url("img/charisse-kenion-XvZutU3LohE-unsplash%20(1).jpg"), center, no-repeat;
+    background: url("img/charisse-kenion-XvZutU3LohE-unsplash%20(1).jpg"), bottom, no-repeat;
     background-size: cover;
     min-height: 100%;
 }
