@@ -12,17 +12,13 @@ h2 {
     color: brown;
 }
 
-/*h1 {
-    text-align: center;
-}*/
-
 .logo {
     display: block;
     margin: auto;
     text-align: center;
 }
 
-.logo h2  {
+.logo h2 {
     font-family: 'Amatic SC', cursive;
     font-size: 20px;
 }
@@ -33,14 +29,18 @@ h2 {
 }
 
 .contxt {
+    text-align: center;
     font-size: 12px;
 }
 
 .con {
-    text-align: center;
-    background: url("img/charisse-kenion-XvZutU3LohE-unsplash%20(1).jpg"), bottom, no-repeat;
+    background: url("img/image.jpg") center, no-repeat;
     background-size: cover;
+    color: #fff;
+    min-width: 30%;
     min-height: 100%;
+    height: 300px;
+    padding: 60px;
 }
 
 .bullet {
@@ -49,6 +49,7 @@ h2 {
 
 img {
     max-width: 100%;
+    max-height: 100%;
     width: auto;
     height: auto;
 }
