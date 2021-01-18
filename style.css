@@ -1,6 +1,6 @@
 body {
     font-family: 'Assistant', sans-serif;
-    color: #2a2626;
+    color: #000;
     font-size: 18px;
     background-color: beige;
     line-height: 1.5;
@@ -9,7 +9,7 @@ body {
 
 h1,
 h2 {
-    color: brown;
+    color: 2a918b;
 }
 
 .logo {
@@ -30,7 +30,7 @@ h2 {
 
 .contxt {
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .con {
