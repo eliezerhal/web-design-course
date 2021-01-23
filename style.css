@@ -7,18 +7,29 @@ body {
     margin: 0;
 }
 
-h1,
-h2 {
-    color: 2a918b;
+.odot {
+    background-color: #2a918b;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 logo {
+    color: #fff;
+}
+
+h3 {
+    color: #dfa421;
 }
 
 .logo {
-    display: block;
     margin: auto;
     text-align: center;
 }
 
-.logo h2 {
+.logo img {
     font-family: 'Amatic SC', cursive;
     font-size: 20px;
 }
@@ -34,11 +45,10 @@ h2 {
 }
 
 .con {
-    background: url("img/image.jpg") center, no-repeat;
+    background: url("img/image.jpg") center no-repeat;
     background-size: cover;
     color: #fff;
     min-width: 30%;
-    min-height: 100%;
     height: 300px;
     padding: 60px;
 }
@@ -59,10 +69,33 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     align-items: center;
+    /*padding: 20px;*/
 }
 
 @media (max-width: 700px) {
     .grid {
         grid-template-columns: 1fr;
     }
+}
+
+@media (max-width: 700px) {
+    .con {
+        background: url("img/image.jpg") no-repeat;
+    }
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.menu {
+    margin-top: 0;
+    background-color: #dfa421;
+    color: #000;
+}
+
+h2 {
+    text-align: center;
 }
