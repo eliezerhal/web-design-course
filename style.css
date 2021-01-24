@@ -5,6 +5,7 @@ body {
     background-color: beige;
     line-height: 1.5;
     margin: 0;
+    padding: 0;
 }
 
 .odot {
@@ -69,7 +70,6 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     align-items: center;
-    /*padding: 20px;*/
 }
 
 @media (max-width: 700px) {
@@ -94,8 +94,15 @@ img {
     margin-top: 0;
     background-color: #dfa421;
     color: #000;
+    padding-bottom: 30px;
 }
 
 h2 {
     text-align: center;
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+iframe {
+    display:block;
 }
