@@ -41,8 +41,9 @@ h3 {
 }
 
 .contxt {
-    text-align: center;
+    
     font-size: 20px;
+	margin: 10px;
 }
 
 .con {
@@ -70,6 +71,7 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     align-items: center;
+	
 }
 
 @media (max-width: 700px) {
@@ -98,7 +100,6 @@ img {
 }
 
 h2 {
-    text-align: center;
     margin-top: 0;
     padding-top: 15px;
 }
@@ -108,22 +109,20 @@ iframe {
 }
 
 .button {
-    border-radius: 20px;
+    border-radius: 30px;
     transition: .3s;
-    display: inline-block;
+    display: table;
     text-decoration: none;
     color: #fff;
-    background-color: #2a918b;
-    /*border: 4px solid #fff;*/
+    background-color: #000;
     font-family: 'Secular One', sans-serif;
     font-size: 21px;
     padding: 10px 20px;
-    margin: 50px 0;
+    margin: 50px  auto;
 }
 
 .button:hover {
-    /*background: #000;
-    color: #fff;*/
+    
     transform: scale(1.1);
 }
 
@@ -131,3 +130,15 @@ iframe {
     text-align: center;
 }
 
+.contxt a{
+	text-decoration: none;
+	color: #2a918b;
+    
+}
+.contact {
+	margin-left: 80px;
+}
+
+h2 {
+	text-align: center
+}
